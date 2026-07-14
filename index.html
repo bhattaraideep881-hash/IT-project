@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple guide to popular trekking routes around the world.">
+    <title>Trekking Adventures | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><nav aria-label="Main navigation">
+    <a class="logo" href="index.html">Trekking Adventures</a>
+    <ul><li><a class="active" href="index.html">Home</a></li><li><a href="trekking.html">Routes</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+</nav></header>
+
+<main>
+<section class="banner" aria-label="Featured trekking photographs">
+    <div class="slide active"><img src="images/mountain-valley-banner.webp" alt="Trekkers walking through a mountain valley"><div class="slide-text">Explore the mountains</div></div>
+    <div class="slide"><img src="images/rocky-trail-banner.webp" alt="Rocky mountain trail"><div class="slide-text">Discover new trails</div></div>
+    <div class="slide"><img src="images/nature-camp-banner.webp" alt="Tent beside a mountain lake"><div class="slide-text">Enjoy the outdoors</div></div>
+    <button class="prev" type="button" onclick="changeSlide(-1)" aria-label="Previous image">&#10094;</button>
+    <button class="next" type="button" onclick="changeSlide(1)" aria-label="Next image">&#10095;</button>
+</section>
+
+<div class="container">
+    <section class="hero"><h1>Plan your next trekking adventure</h1><p>Compare popular routes, learn the basics and save your own trekking ideas.</p><a class="btn" href="trekking.html">Explore routes</a></section>
+    <section><h2>Why go trekking?</h2><div class="grid">
+        <article class="card"><span class="card-icon" aria-hidden="true">&#9968;</span><h3>Explore nature</h3><p>See mountains, forests and landscapes away from busy cities.</p></article>
+        <article class="card"><span class="card-icon" aria-hidden="true">&#10084;</span><h3>Stay active</h3><p>Build fitness and confidence by walking at your own pace.</p></article>
+        <article class="card"><span class="card-icon" aria-hidden="true">&#9728;</span><h3>Feel refreshed</h3><p>Spend time outdoors and enjoy a calm change of scenery.</p></article>
+    </div></section>
+    <section class="table-section"><h2>Popular destinations</h2><table><thead><tr><th>Route</th><th>Country</th><th>Typical duration</th></tr></thead><tbody><tr><td>Everest Base Camp</td><td>Nepal</td><td>12–14 days</td></tr><tr><td>Annapurna Circuit</td><td>Nepal</td><td>15–18 days</td></tr><tr><td>Inca Trail</td><td>Peru</td><td>4–5 days</td></tr></tbody></table></section>
+</div>
+</main>
+<footer><div class="footer-inner"><div><h2>Trekking Adventures</h2><ul class="footer-nav" aria-label="Site map"><li><a href="index.html">Home</a></li><li><a href="trekking.html">Routes</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div><div class="footer-contact"><h2>Contact</h2><p><a href="tel:+9779812345678">+977 9812345678</a></p><p><a href="mailto:info@trekkingadventures.example">info@trekkingadventures.example</a></p><p>Kathmandu, Nepal</p></div><div class="footer-bottom"><span>&copy; 2026 Trekking Adventures</span><span>Created by Deep &middot; Student project</span></div></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
